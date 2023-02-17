@@ -1,0 +1,38 @@
+{
+  "name": "@atomized-component/components",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/components/index.d.ts",
+      "require": "./dist/components.umd.cjs",
+      "import": "./dist/components.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@atomized-component/common": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "tsup": "^6.6.3",
+    "vite": "^4.1.0"
+  }
+}
