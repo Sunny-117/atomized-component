@@ -1,9 +1,9 @@
 import React from "react";
-import { Button } from "@atomized-component/components";
+import LTree from "./component/LTree";
 export default function App() {
   return (
     <div>
-      <Button>点击</Button>
+      <LTree />
     </div>
   );
 }

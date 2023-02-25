@@ -1,0 +1,461 @@
+{
+    "data": {
+        "permissions": [
+            {
+                "dependency_perm_ids": [],
+                "id": "1973208",
+                "key": "ad.partner_api.home_page",
+                "name": "首页",
+                "sub_permissions": [
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1973395",
+                        "key": "ad.partner_api.TODO",
+                        "name": "待办事项"
+                    }
+                ]
+            },
+            {
+                "dependency_perm_ids": [],
+                "id": "1218819",
+                "key": "ad.partner_api.business_management",
+                "name": "合作管理",
+                "sub_permissions": [
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1218841",
+                        "key": "ad.partner_api.order_management",
+                        "name": "订单管理",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "3173549",
+                                "key": "ad.partner_api.operate",
+                                "name": "代直播/代运营",
+                                "sub_permissions": [
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "1709385",
+                                        "key": "ad.partner_api.order_assign",
+                                        "name": "定向发单操作权限"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "1709384",
+                                        "key": "ad.partner_api.order_assign_without_audit",
+                                        "name": "定向发单操作权限（免审）"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "1218808",
+                                        "key": "ad.partner_api.commision_edit_without_audit",
+                                        "name": "佣金修改权限（免审）"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "1218809",
+                                        "key": "ad.partner_api.order_cancel",
+                                        "name": "取消订单权限"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "1218810",
+                                        "key": "ad.partner_api.order_follower",
+                                        "name": "订单跟进人分配权限"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "1218813",
+                                        "key": "ad.partner_api.order_reconfirm",
+                                        "name": "订单二次确认权限"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "1218817",
+                                        "key": "ad.partner_api.commission_edit",
+                                        "name": "订单操作（修改佣金\u0026接单\u0026确认商家取消申请）"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "1218842",
+                                        "key": "ad.partner_api.order_get",
+                                        "name": "订单查看权限"
+                                    }
+                                ]
+                            },
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "3319729",
+                                "key": "ad.partner_api.aliance",
+                                "name": "达人撮合",
+                                "sub_permissions": [
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "3319730",
+                                        "key": "ad.partner_api.task_create",
+                                        "name": "创建计划"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "3319731",
+                                        "key": "ad.partner_api.task_get",
+                                        "name": "查看计划"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "3319732",
+                                        "key": "ad.partner_api.task_operate",
+                                        "name": "计划操作"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "3319733",
+                                        "key": "ad.partner_api.task_approve",
+                                        "name": "审批计划"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "3319734",
+                                        "key": "ad.partner_api.task_set_follower",
+                                        "name": "分配订单跟进人"
+                                    },
+                                    {
+                                        "dependency_perm_ids": [],
+                                        "id": "3319735",
+                                        "key": "ad.partner_api.task_cancel",
+                                        "name": "取消计划"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "2129175",
+                        "key": "ad.partner_api.activity_management",
+                        "name": "平台活动（商家）",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "2129362",
+                                "key": "ad.partner_api.activity_management_edit",
+                                "name": "平台活动操作权限"
+                            },
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "2129363",
+                                "key": "ad.partner_api.activity_management_get",
+                                "name": "平台活动查看权限"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "dependency_perm_ids": [],
+                "id": "2761719",
+                "key": "ad.partner_api.merchant_services",
+                "name": "商家服务",
+                "sub_permissions": [
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1218818",
+                        "key": "ad.partner_api.cooperation_merchant",
+                        "name": "合作商户",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [
+                                    "1218831"
+                                ],
+                                "id": "1218815",
+                                "key": "ad.partner_api.merchant_douyin_operate",
+                                "name": "代运营附身权限"
+                            },
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "1218831",
+                                "key": "ad.partner_api.merchant_get",
+                                "name": "合作商户查看权限"
+                            },
+                            {
+                                "dependency_perm_ids": [
+                                    "1218831"
+                                ],
+                                "id": "1218834",
+                                "key": "ad.partner_api.merchant_live_operate",
+                                "name": "代直播附身权限"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "dependency_perm_ids": [],
+                "id": "1218820",
+                "key": "ad.partner_api.data",
+                "name": "数据",
+                "sub_permissions": [
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1218805",
+                        "key": "ad.partner_api.data_dashboard",
+                        "name": "数据看板",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "1218816",
+                                "key": "ad.partner_api.data_dashboard_get",
+                                "name": "数据看板查看权限"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "dependency_perm_ids": [],
+                "id": "1218839",
+                "key": "ad.partner_api.capital_account_management",
+                "name": "资金账户",
+                "sub_permissions": [
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1218811",
+                        "key": "ad.partner_api.banlance_management",
+                        "name": "结算管理",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "1218832",
+                                "key": "ad.partner_api.balance_get",
+                                "name": "结算管理查看权限"
+                            }
+                        ]
+                    },
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1218835",
+                        "key": "ad.partner_api.balance_account",
+                        "name": "结算账户",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "1218825",
+                                "key": "ad.partner_api.balance_account_get",
+                                "name": "结算账户查看权限"
+                            },
+                            {
+                                "dependency_perm_ids": [
+                                    "1218825"
+                                ],
+                                "id": "1218836",
+                                "key": "ad.partner_api.balance_account_edit",
+                                "name": "结算账户修改权限"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "dependency_perm_ids": [],
+                "id": "1218838",
+                "key": "ad.partner_api.partner_product_management",
+                "name": "服务项管理",
+                "sub_permissions": [
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1218829",
+                        "key": "ad.partner_api.product_management",
+                        "name": "服务管理",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [
+                                    "1218833"
+                                ],
+                                "id": "1218812",
+                                "key": "ad.partner_api.product_follower",
+                                "name": "服务跟进人分配权限"
+                            },
+                            {
+                                "dependency_perm_ids": [
+                                    "1218833"
+                                ],
+                                "id": "1218823",
+                                "key": "ad.partner_api.product_publish",
+                                "name": "服务发布\u0026编辑权限"
+                            },
+                            {
+                                "dependency_perm_ids": [
+                                    "1218833",
+                                    "1218823"
+                                ],
+                                "id": "1218824",
+                                "key": "ad.partner_api.product_publish_without_audit",
+                                "name": "服务发布\u0026编辑权限（免审）"
+                            },
+                            {
+                                "dependency_perm_ids": [
+                                    "1218833"
+                                ],
+                                "id": "1218830",
+                                "key": "ad.partner_api.product_reconfirm",
+                                "name": "服务二次确认权限"
+                            },
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "1218833",
+                                "key": "ad.partner_api.product_get",
+                                "name": "服务查看权限"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "dependency_perm_ids": [],
+                "id": "1218837",
+                "key": "ad.partner_api.base_info_management",
+                "name": "基础信息管理",
+                "sub_permissions": [
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1218806",
+                        "key": "ad.partner_api.settle_info",
+                        "name": "入驻信息",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "1218814",
+                                "key": "ad.partner_api.settle_info_get",
+                                "name": "入驻信息查看权限"
+                            }
+                        ]
+                    },
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1218807",
+                        "key": "ad.partner_api.authorization_management",
+                        "name": "授权管理",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "1218827",
+                                "key": "ad.partner_api.authorization_info_get",
+                                "name": "授权信息查看权限"
+                            },
+                            {
+                                "dependency_perm_ids": [
+                                    "1218827"
+                                ],
+                                "id": "1218828",
+                                "key": "ad.partner_api.operate_collaborators",
+                                "name": "创建\u0026启用\u0026停用\u0026删除协作者权限"
+                            },
+                            {
+                                "dependency_perm_ids": [
+                                    "1218827"
+                                ],
+                                "id": "1218840",
+                                "key": "ad.partner_api.operate_roles",
+                                "name": "创建\u0026删除岗位权限"
+                            }
+                        ]
+                    },
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "1218821",
+                        "key": "ad.partner_api.contract_management",
+                        "name": "合同管理",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [
+                                    "1218844"
+                                ],
+                                "id": "1218822",
+                                "key": "ad.partner_api.contract_sign",
+                                "name": "合同签署权限"
+                            },
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "1218844",
+                                "key": "ad.partner_api.contract_get",
+                                "name": "合同查看权限"
+                            }
+                        ]
+                    },
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "4780076",
+                        "key": "ad.partner_api.violation_manage",
+                        "name": "违规管理",
+                        "sub_permissions": [
+                            {
+                                "dependency_perm_ids": [],
+                                "id": "4780077",
+                                "key": "ad.partner_api.violation_get",
+                                "name": "违规管理查看"
+                            },
+                            {
+                                "dependency_perm_ids": [
+                                    "4780077"
+                                ],
+                                "id": "4780078",
+                                "key": "ad.partner_api.violation_check",
+                                "name": "违规管理申诉/认罚"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "dependency_perm_ids": [],
+                "id": "3314806",
+                "key": "ad.partner_api.lead_management",
+                "name": "线索管理",
+                "sub_permissions": [
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "3314807",
+                        "key": "ad.partner_api.lead_query",
+                        "name": "线索查看"
+                    },
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "3314808",
+                        "key": "ad.partner_api.lead_open",
+                        "name": "线索承接"
+                    },
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "3314809",
+                        "key": "ad.partner_api.lead_assign",
+                        "name": "线索分配"
+                    }
+                ]
+            },
+            {
+                "dependency_perm_ids": [],
+                "id": "3314810",
+                "key": "ad.partner_api.homepage_management",
+                "name": "服务商主页管理",
+                "sub_permissions": [
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "3314811",
+                        "key": "ad.partner_api.homepage_query",
+                        "name": "服务商主页查看"
+                    },
+                    {
+                        "dependency_perm_ids": [],
+                        "id": "3314812",
+                        "key": "ad.partner_api.homepage_modify",
+                        "name": "服务商主页编辑"
+                    }
+                ]
+            }
+        ]
+    },
+    "log_id": "20230219231827A9EE2A26A4244698112F",
+    "now": "1676819907820",
+    "status_code": 0,
+    "status_msg": ""
+}
